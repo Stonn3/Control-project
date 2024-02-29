@@ -1,0 +1,25 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "code": "bin/menu-game.js" ,
+    "brain-games": "bin/menu-game.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "start": "node bin/menu-game.js"
+  },
+  "type": "module" ,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Stonn3/Control-project.git"
+  },
+  "author": "inom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stonn3/Control-project/issues"
+  },
+  "homepage": "https://github.com/Stonn3/Control-project#readme"
+}
