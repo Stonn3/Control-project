@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "code": "bin/menu-game.js" ,
-    "brain-games": "bin/menu-game.js"
+    "menu-game": "bin/menu-game.js",
+    "brain-games": "bin/menu-game.js" ,
+    "brain-scm": "bin/brain-scm.js" ,
+    "gProgress": "bin/gProgress.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bin/menu-game.js"
   },
-  "type": "module" ,
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Stonn3/Control-project.git"
@@ -21,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/Stonn3/Control-project/issues"
   },
-  "homepage": "https://github.com/Stonn3/Control-project#readme"
+  "homepage": "https://github.com/Stonn3/Control-project#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^27.9.0",
+    "jest": "^29.7.0"
+  }
 }
